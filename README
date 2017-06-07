@@ -1,0 +1,6 @@
+Esse é um teste para aprendizado. A idéia é utilizar os seguintes componentes
+  - mySQL para criar um banco de dados da empresa
+  - NodeJS como servidor http
+  - Bootstrap como framework css para definir um estilo de página 
+responsiva
+  - AngularJS como framework para interface entre a página e os dados

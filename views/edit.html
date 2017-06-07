@@ -1,0 +1,32 @@
+<div class="container" ng-controller="editCtrl">
+	<h1> Editar Cadastro </h1>
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label class="col-sm-2 control-label" for="nome">Nome:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="nome" ng-model="edit.nome">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label" for="cargo">Cargo:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="cargo" ng-model="edit.cargo">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label" for="usr">Salário:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="salario" ng-model="edit.salario">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label" for="usr">Data de Admiss&atilde;o:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="admissao" ng-model="edit.admissao">
+			</div>
+		</div>
+		<div class="text-right">
+			<input type="submit" class="btn btn-default btn-lg" ng-click="UpdateRow(edit)" value="Salvar">		
+		</div>
+	</form>
+</div>

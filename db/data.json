@@ -1,0 +1,33 @@
+[
+	{
+		"nome" : "Rodrigo Martins",
+		"cargo" : "Engenheiro Sênior",
+		"salario" : "R$8000,00",
+		"admissao" : "01/05/2001"
+	},
+	{
+		"nome" : "Anderson Koleniak",
+		"cargo" : "Técnico Sênior",
+		"salario" : "R$3000,00",
+		"admissao" : "01/08/2010"
+	},
+	{
+		"nome" : "Thiago Nascimento",
+		"cargo" : "Auxiliar II",
+		"salario" : "R$1000,00",
+		"admissao" : "01/03/2012"
+	},
+	{
+		"nome" : "Renata Nascimento",
+		"cargo" : "Auxiliar II",
+		"salario" : "R$1000,00",
+		"admissao" : "01/06/2014"
+	},
+	{
+		"nome" : "Lucas Soares",
+		"cargo" : "Auxiliar I",
+		"salario" : "R$800,00",
+		"admissao" : "01/05/2017"
+	}
+]
+

@@ -1,0 +1,52 @@
+.container-fluid{
+	background-color: #c7832f !important;
+}
+.jumbotron {
+	background-color: #c7832f;
+	color: #ffffff;
+	margin-bottom:0px
+}
+.navbar {
+	background-color: #c7832f;
+	color: #ffffff;
+	border: 0;
+	border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #c7832f !important;
+    background-color: #ffffff !important;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #c7832f;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+     background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #c7832f;
+    border-color: #c7832f;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: #c7832f;
+	color: #ffffff;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+	  z-index:99;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
